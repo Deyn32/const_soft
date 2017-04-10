@@ -14,6 +14,7 @@ namespace Game_Bot
     {
         public MainForm()
         {
+            //Михайлов 10.04.2017 Буду делать то-то и то-то
             InitializeComponent();
         }
     }
