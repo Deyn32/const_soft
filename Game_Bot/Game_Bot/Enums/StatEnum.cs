@@ -16,6 +16,8 @@ namespace Game_Bot.Enums
         ///При закрытии формы
         Exit,
         ///Ошибка в работе
-        Error
+        Error,
+        ///Подключение к игре
+        Connect
     }
 }

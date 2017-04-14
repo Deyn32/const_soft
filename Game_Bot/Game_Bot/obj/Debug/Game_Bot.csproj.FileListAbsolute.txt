@@ -7,3 +7,12 @@ F:\git_project\Game_Bot\Game_Bot\obj\Debug\Game_Bot.Properties.Resources.resourc
 F:\git_project\Game_Bot\Game_Bot\obj\Debug\Game_Bot.csproj.GenerateResource.Cache
 F:\git_project\Game_Bot\Game_Bot\obj\Debug\Game_Bot.exe
 F:\git_project\Game_Bot\Game_Bot\obj\Debug\Game_Bot.pdb
+D:\rep_mgta\Game_Bot\Game_Bot\bin\Debug\Game_Bot.exe.config
+D:\rep_mgta\Game_Bot\Game_Bot\obj\Debug\Game_Bot.exe
+D:\rep_mgta\Game_Bot\Game_Bot\obj\Debug\Game_Bot.pdb
+D:\rep_mgta\Game_Bot\Game_Bot\bin\Debug\Game_Bot.exe
+D:\rep_mgta\Game_Bot\Game_Bot\bin\Debug\Game_Bot.pdb
+D:\rep_mgta\Game_Bot\Game_Bot\obj\Debug\Game_Bot.csprojResolveAssemblyReference.cache
+D:\rep_mgta\Game_Bot\Game_Bot\obj\Debug\Game_Bot.MainForm.resources
+D:\rep_mgta\Game_Bot\Game_Bot\obj\Debug\Game_Bot.Properties.Resources.resources
+D:\rep_mgta\Game_Bot\Game_Bot\obj\Debug\Game_Bot.csproj.GenerateResource.Cache
