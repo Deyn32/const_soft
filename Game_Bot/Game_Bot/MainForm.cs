@@ -25,10 +25,10 @@ namespace Game_Bot
         private void SetStat (StatEnum stat)
         {
             if (stat == StatEnum.Begin)
-                rtbInfo.Text += string.Format("Здравствуй, пользователь! Можешь отдохнуть, я поиграю за тебя!\n");
+                rtbInfo.Text += string.Format("Здравствуй, пользователь! Можешь отдохнуть, я поиграю за тебя!\n"); // Escape-последовательности
 
             if (stat == StatEnum.Start)
-                rtbInfo.Text += string.Format("Приготовься выигрывать!\n");
+                rtbInfo.Text += string.Format("Приготовся выигрывать!\n");
 
             if (stat == StatEnum.Exit)
                 rtbInfo.Text += string.Format("Спасибо, что дал поиграть! Еще увидимся, пока!\n");
@@ -37,13 +37,19 @@ namespace Game_Bot
                 rtbInfo.Text += string.Format("Ой, ошибка! Что-то пошло не так( Прости!\n");
 
             if (stat == StatEnum.Connect)
-                rtbInfo.Text += string.Format("Подключаюсь к игре...\n");
+                rtbInfo.Text += string.Format("Подключаюсь к игре...");
+            
         }
 
         //Михайлов 11.04.2017 Метод обработки кнопки
         private void btnStart_Click(object sender, EventArgs e)
         {
             SetStat(StatEnum.Start);
+        }
+
+        private void rtbInfo_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
