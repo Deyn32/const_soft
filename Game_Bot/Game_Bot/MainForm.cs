@@ -28,6 +28,10 @@ namespace Game_Bot
                 rtbInfo.Text += string.Format("Здравствуй, пользователь! Можешь отдохнуть, я поиграю за тебя!\n"); // Escape-последовательности
 
             if (stat == StatEnum.Start)
+                rtbInfo.Text += string.Format("Приготовься выигрывать!\n");
+
+
+            if (stat == StatEnum.Start)
                 rtbInfo.Text += string.Format("Приготовся выигрывать!\n");
 
             if (stat == StatEnum.Exit)
@@ -37,6 +41,7 @@ namespace Game_Bot
                 rtbInfo.Text += string.Format("Ой, ошибка! Что-то пошло не так( Прости!\n");
 
             if (stat == StatEnum.Connect)
+                rtbInfo.Text += string.Format("Подключаюсь к игре...\n");
                 rtbInfo.Text += string.Format("Подключаюсь к игре...");
             
         }

@@ -1,0 +1,14 @@
+F:\git_project\Game_Bot\Pocker\bin\Debug\Pocker.exe.config
+F:\git_project\Game_Bot\Pocker\bin\Debug\Pocker.exe
+F:\git_project\Game_Bot\Pocker\bin\Debug\Pocker.pdb
+F:\git_project\Game_Bot\Pocker\obj\Debug\Pocker.csprojResolveAssemblyReference.cache
+F:\git_project\Game_Bot\Pocker\obj\Debug\MainWindow.g.cs
+F:\git_project\Game_Bot\Pocker\obj\Debug\App.g.cs
+F:\git_project\Game_Bot\Pocker\obj\Debug\Pocker_MarkupCompile.cache
+F:\git_project\Game_Bot\Pocker\obj\Debug\Pocker_MarkupCompile.lref
+F:\git_project\Game_Bot\Pocker\obj\Debug\MainWindow.baml
+F:\git_project\Game_Bot\Pocker\obj\Debug\Pocker.g.resources
+F:\git_project\Game_Bot\Pocker\obj\Debug\Pocker.Properties.Resources.resources
+F:\git_project\Game_Bot\Pocker\obj\Debug\Pocker.csproj.GenerateResource.Cache
+F:\git_project\Game_Bot\Pocker\obj\Debug\Pocker.exe
+F:\git_project\Game_Bot\Pocker\obj\Debug\Pocker.pdb
