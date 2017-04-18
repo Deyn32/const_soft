@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Game_Bot",
+    "\\Game_Bot\\ClassLibrary1"
   ],
+  "SelectedNode": "\\Game_Bot\\ClassLibrary1\\Bot.cs",
   "PreviewInSolutionExplorer": false
 }

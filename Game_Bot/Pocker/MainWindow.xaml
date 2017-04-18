@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Pocker"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <Window.Background>
+        <ImageBrush ImageSource="F:\git_project\Game_Bot\Pocker\component\Table.jpg" Stretch="UniformToFill" TileMode="None" />
+    </Window.Background>
+    <Grid x:Name="MainForm"/>
 </Window>
