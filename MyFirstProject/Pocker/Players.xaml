@@ -1,0 +1,104 @@
+﻿<Window x:Class="Pocker.Players"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pocker"
+        mc:Ignorable="d"
+       Title="Настройки игроков" Height="357" Width="449" Icon=".\component\Icon.png">
+    <Window.Background>
+        <ImageBrush ImageSource=".\component\Menu.jpg" Stretch="UniformToFill" TileMode="None" />
+    </Window.Background>
+    <Grid>
+        <Label Content="Игрок 1" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content="Игрок 2" HorizontalAlignment="Left" Margin="25,41,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content="Игрок 3" HorizontalAlignment="Left" Margin="25,72,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content="Игрок 4" HorizontalAlignment="Left" Margin="25,103,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content="Игрок 5" HorizontalAlignment="Left" Margin="25,134,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,0.423" Foreground="Red"/>
+        <Label Content="Игрок 6" HorizontalAlignment="Left" Margin="25,165,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content="Игрок 7" HorizontalAlignment="Left" Margin="25,196,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content="Игрок 8" HorizontalAlignment="Left" Margin="25,227,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content="Игрок 9" HorizontalAlignment="Left" Margin="25,258,0,0" VerticalAlignment="Top" Foreground="#FFEE0000"/>
+        <Label Content="Игрок 10" HorizontalAlignment="Left" Margin="18,289,0,0" VerticalAlignment="Top" Foreground="#FFE20000"/>
+        <ComboBox x:Name="cbActivPlayer1" HorizontalAlignment="Left" Margin="89,12,0,0" VerticalAlignment="Top" Width="156">
+            <ComboBoxItem Content="Открыто" HorizontalAlignment="Left" Width="154"/>
+            <ComboBoxItem Content="Закрыто" HorizontalAlignment="Left" Width="154"/>
+        </ComboBox>
+        <ComboBox x:Name="cbPlayer1" HorizontalAlignment="Left" Margin="250,12,0,0" VerticalAlignment="Top" Width="172">
+            <ComboBoxItem Content="Человек" HorizontalAlignment="Left" Width="170"/>
+            <ComboBoxItem Content="Компьютер" HorizontalAlignment="Left" Width="170"/>
+        </ComboBox>
+        <ComboBox x:Name="cbActivPlayer2" HorizontalAlignment="Left" Margin="89,41,0,0" VerticalAlignment="Top" Width="156">
+            <ComboBoxItem Content="Открыто" HorizontalAlignment="Left" Width="154"/>
+            <ComboBoxItem Content="Закрыто" HorizontalAlignment="Left" Width="154"/>
+        </ComboBox>
+        <ComboBox x:Name="cbPlayer2" HorizontalAlignment="Left" Margin="250,41,0,0" VerticalAlignment="Top" Width="172">
+            <ComboBoxItem Content="Человек" HorizontalAlignment="Left" Width="170"/>
+            <ComboBoxItem Content="Компьютер" HorizontalAlignment="Left" Width="170"/>
+        </ComboBox>
+        <ComboBox x:Name="cbActivPlayer3" HorizontalAlignment="Left" Margin="89,69,0,0" VerticalAlignment="Top" Width="156" IsReadOnly="True">
+            <ComboBoxItem Content="Открыто" HorizontalAlignment="Left" Width="154"/>
+            <ComboBoxItem Content="Закрыто" HorizontalAlignment="Left" Width="154"/>
+        </ComboBox>
+        <ComboBox x:Name="cbPlayer3" HorizontalAlignment="Left" Margin="250,69,0,0" VerticalAlignment="Top" Width="172" IsReadOnly="True">
+            <ComboBoxItem Content="Человек" HorizontalAlignment="Left" Width="170"/>
+            <ComboBoxItem Content="Компьютер" HorizontalAlignment="Left" Width="170"/>
+        </ComboBox>
+        <ComboBox x:Name="cbActivPlayer4" HorizontalAlignment="Left" Margin="89,103,0,0" VerticalAlignment="Top" Width="156" IsReadOnly="True">
+            <ComboBoxItem Content="Открыто" HorizontalAlignment="Left" Width="154"/>
+            <ComboBoxItem Content="Закрыто" HorizontalAlignment="Left" Width="154"/>
+        </ComboBox>
+        <ComboBox x:Name="cbPlayer4" HorizontalAlignment="Left" Margin="250,103,0,0" VerticalAlignment="Top" Width="172" IsReadOnly="True">
+            <ComboBoxItem Content="Человек" HorizontalAlignment="Left" Width="170"/>
+            <ComboBoxItem Content="Компьютер" HorizontalAlignment="Left" Width="170"/>
+        </ComboBox>
+        <ComboBox x:Name="cbActivPlayer5" HorizontalAlignment="Left" Margin="89,134,0,0" VerticalAlignment="Top" Width="156" IsReadOnly="True">
+            <ComboBoxItem Content="Открыто" HorizontalAlignment="Left" Width="154"/>
+            <ComboBoxItem Content="Закрыто" HorizontalAlignment="Left" Width="154"/>
+        </ComboBox>
+        <ComboBox x:Name="cbPlayer5" HorizontalAlignment="Left" Margin="250,134,0,0" VerticalAlignment="Top" Width="172" IsReadOnly="True">
+            <ComboBoxItem Content="Человек" HorizontalAlignment="Left" Width="170"/>
+            <ComboBoxItem Content="Компьютер" HorizontalAlignment="Left" Width="170"/>
+        </ComboBox>
+        <ComboBox x:Name="cbActivPlayer6" HorizontalAlignment="Left" Margin="89,167,0,0" VerticalAlignment="Top" Width="156" IsReadOnly="True">
+            <ComboBoxItem Content="Открыто" HorizontalAlignment="Left" Width="154"/>
+            <ComboBoxItem Content="Закрыто" HorizontalAlignment="Left" Width="154"/>
+        </ComboBox>
+        <ComboBox x:Name="cbPlayer6" HorizontalAlignment="Left" Margin="250,167,0,0" VerticalAlignment="Top" Width="172" IsReadOnly="True">
+            <ComboBoxItem Content="Человек" HorizontalAlignment="Left" Width="170"/>
+            <ComboBoxItem Content="Компьютер" HorizontalAlignment="Left" Width="170"/>
+        </ComboBox>
+        <ComboBox x:Name="cbActivPlayer7" HorizontalAlignment="Left" Margin="89,198,0,0" VerticalAlignment="Top" Width="156" IsReadOnly="True">
+            <ComboBoxItem Content="Открыто" HorizontalAlignment="Left" Width="154"/>
+            <ComboBoxItem Content="Закрыто" HorizontalAlignment="Left" Width="154"/>
+        </ComboBox>
+        <ComboBox x:Name="cbPlayer7" HorizontalAlignment="Left" Margin="250,198,0,0" VerticalAlignment="Top" Width="172" IsReadOnly="True">
+            <ComboBoxItem Content="Человек" HorizontalAlignment="Left" Width="170"/>
+            <ComboBoxItem Content="Компьютер" HorizontalAlignment="Left" Width="170"/>
+        </ComboBox>
+        <ComboBox x:Name="cbActivPlayer8" HorizontalAlignment="Left" Margin="89,227,0,0" VerticalAlignment="Top" Width="156" IsReadOnly="True">
+            <ComboBoxItem Content="Открыто" HorizontalAlignment="Left" Width="154"/>
+            <ComboBoxItem Content="Закрыто" HorizontalAlignment="Left" Width="154"/>
+        </ComboBox>
+        <ComboBox x:Name="cbPlayer8" HorizontalAlignment="Left" Margin="250,229,0,0" VerticalAlignment="Top" Width="172" IsReadOnly="True">
+            <ComboBoxItem Content="Человек" HorizontalAlignment="Left" Width="170"/>
+            <ComboBoxItem Content="Компьютер" HorizontalAlignment="Left" Width="170"/>
+        </ComboBox>
+        <ComboBox x:Name="cbActivPlayer9" HorizontalAlignment="Left" Margin="89,260,0,0" VerticalAlignment="Top" Width="156" IsReadOnly="True">
+            <ComboBoxItem Content="Открыто" HorizontalAlignment="Left" Width="154"/>
+            <ComboBoxItem Content="Закрыто" HorizontalAlignment="Left" Width="154"/>
+        </ComboBox>
+        <ComboBox x:Name="cbPlayer9" HorizontalAlignment="Left" Margin="250,260,0,0" VerticalAlignment="Top" Width="172" IsReadOnly="True">
+            <ComboBoxItem Content="Человек" HorizontalAlignment="Left" Width="170"/>
+            <ComboBoxItem Content="Компьютер" HorizontalAlignment="Left" Width="170"/>
+        </ComboBox>
+        <ComboBox x:Name="cbActivPlayer10" HorizontalAlignment="Left" Margin="89,289,0,0" VerticalAlignment="Top" Width="156" IsReadOnly="True">
+            <ComboBoxItem Content="Открыто" HorizontalAlignment="Left" Width="154"/>
+            <ComboBoxItem Content="Закрыто" HorizontalAlignment="Left" Width="154"/>
+        </ComboBox>
+        <ComboBox x:Name="cbPlayer10" HorizontalAlignment="Left" Margin="250,289,0,0" VerticalAlignment="Top" Width="172" IsReadOnly="True">
+            <ComboBoxItem Content="Человек" HorizontalAlignment="Left" Width="170"/>
+            <ComboBoxItem Content="Компьютер" HorizontalAlignment="Left" Width="170"/>
+        </ComboBox>
+    </Grid>
+</Window>

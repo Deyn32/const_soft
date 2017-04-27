@@ -16,3 +16,6 @@ D:\rep_mgta\Game_Bot\Game_Bot\obj\Debug\Game_Bot.csprojResolveAssemblyReference.
 D:\rep_mgta\Game_Bot\Game_Bot\obj\Debug\Game_Bot.MainForm.resources
 D:\rep_mgta\Game_Bot\Game_Bot\obj\Debug\Game_Bot.Properties.Resources.resources
 D:\rep_mgta\Game_Bot\Game_Bot\obj\Debug\Game_Bot.csproj.GenerateResource.Cache
+C:\Users\avedeneeva\Documents\VS\Game_Bot\Game_Bot\bin\Debug\Game_Bot.exe.config
+C:\Users\avedeneeva\Documents\VS\Game_Bot\Game_Bot\obj\Debug\Game_Bot.exe
+C:\Users\avedeneeva\Documents\VS\Game_Bot\Game_Bot\obj\Debug\Game_Bot.pdb
